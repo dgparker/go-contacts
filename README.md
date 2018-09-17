@@ -57,5 +57,7 @@ It might look something similar to this for localhost and default settings liste
 If you are running the server you can use your preferred method for executing http requests i.e. `curl` or using Postman<br>
 If you are using postman you can access my shared collection here https://www.getpostman.com/collections/3978ff85204cce216bda<br>
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/3978ff85204cce216bda)
+
 ##### Note: Go test files are included within the `handler pkg` 
 you do NOT need a running db to run these test files. They do however expect it's library dependencies to be met
