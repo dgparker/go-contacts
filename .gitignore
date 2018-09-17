@@ -1,0 +1,4 @@
+_vendor/*/
+*.exe
+debug
+build.bat
