@@ -17,8 +17,13 @@ var dbcoll string
 var port string
 
 func main() {
+	fmt.Println(dbURI)
+	fmt.Println(dbname)
+	fmt.Println(dbcoll)
+	fmt.Println(port)
 
 	contactService := services.NewMongoService(dbURI, dbname, dbcoll)
+
 	contactHandler := handler.NewContactHandler(contactService)
 
 	r := httprouter.New()
